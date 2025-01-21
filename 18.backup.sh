@@ -7,7 +7,7 @@ N="\e[0m"
 
 SOURCE_DIR=$1
 DEST_DIR=$2
-DAYS=${3,-14} # If user is not providing the number of days, we are taking 14 as default. 
+DAYS=${3:-14} # If user is not providing the number of days, we are taking 14 as default. 
 
 LOGS_FOLDER="/home/ec2-user/shellscript-logs/"
 LOG_FILE=$(echo $0 | cut -d "." -f1)
