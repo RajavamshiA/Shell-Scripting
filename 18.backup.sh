@@ -37,19 +37,19 @@ fi
 
 if [ ! -d $SOURCE_DIR ]
 then
-    echo "$SOURCE_DIR  DOes not Exist.. Please Check"
+    echo "$SOURCE_DIR  Does not Exist.. Please Check"
     exit 1
 fi
 
 if [ ! -d $DEST_DIR ]
 then
-    echo "$DEST_DIR  DOes not Exist.. Please Check"
+    echo "$DEST_DIR  Does not Exist.. Please Check"
     exit 1
 fi
 
 echo "Script started executing at: $TIMESTAMP" &>>$LOG_FILE_NAME
 
-FILES=$(find $SOURCE_DIR -name "*.log" -mtime +$DAYS)
+FILES=$(find $SOURCE_DIR -name "*.log" -mtime +$DAYS) 
 
 echo "Files are: $FILES"
 
