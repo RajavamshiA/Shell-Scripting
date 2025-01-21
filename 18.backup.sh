@@ -30,18 +30,18 @@ USAGE(){
 
 mkdir -p /home/ec2-user/shellscript-logs/
 
-if [ $# -lt 2]
+if [ $# -lt 2 ]
 then   
     USAGE
 fi
 
-if [ ! -d $SOURCE_DIR]
+if [ ! -d $SOURCE_DIR ]
 then
     echo "$SOURCE_DIR  DOes not Exist.. Please Check"
     exit 1
 fi
 
-if [ ! -d $DEST_DIR]
+if [ ! -d $DEST_DIR ]
 then
     echo "$DEST_DIR  DOes not Exist.. Please Check"
     exit 1
