@@ -49,7 +49,7 @@ then
     find $SOURCE_DIR -name "*.log" -mtime +$DAYS | zip -@ "$ZIP_FILE"
     if [ -f "$ZIP_FILE" ]
     then
-        echo -e "Successfully created zip file for files older than $DAYS"
+        echo -e "$G Successfully created zip file for files older than $DAYS"
         while read -r filepath #here filepath is the varialble name, we can give any name
         do
             echo "Deleting files:$filepath" &>>$LOG_FILE_NAME
