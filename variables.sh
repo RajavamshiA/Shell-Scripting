@@ -2,7 +2,7 @@
 
 
 
-#Passing values from command line as arguments.
+#Passing values from command line as arguments at runtime.
 
 PERSON=$1
 
