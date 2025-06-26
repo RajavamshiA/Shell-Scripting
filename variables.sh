@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 #Passing values from command line as arguments.
 
 PERSON=$1
