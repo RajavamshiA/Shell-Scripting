@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Enter the Number"
-read -s Number
+read -s Number      
 
 if [ $Number -gt 100 ]
 then
