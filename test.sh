@@ -1,11 +1,11 @@
 #!/bin/bash
 
-
-Number= $1
+echo "Enter the Number"
+read -s Number
 
 if [ $Number -gt 100 ]
 then
-    echo " yo: $NUMBER "
+    echo "$Number is greater than 100"
 else    
-    echo "$NUMBER"
+    echo "$Number is not greater than 100"
 fi
