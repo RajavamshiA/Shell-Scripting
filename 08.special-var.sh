@@ -9,11 +9,3 @@ echo "Which user is running this script: $$"
 sleep 60 &
 echo "Process id of last command in background: $!"
 
-"$@"
-"$#"
-$PWD
-$HOME
-$$
-$! 
-
-
