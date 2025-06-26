@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Two persons having a conversation"
+#Passing values from command line as arguments.
 
 PERSON=$1
 
