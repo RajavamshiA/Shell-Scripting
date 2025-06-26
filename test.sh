@@ -1,11 +1,11 @@
 #!/bin/bash
 
 echo "Enter the Number"
-read -s Number
+Number= $1
 
-if [$Number -gt 100]
+if [ $Number -gt 100 ]
 then
-    echo "$NUMBER gt 100"
+    echo " yo: $NUMBER "
 else    
-    echo "$NUMBER ngt 100"
+    echo "$NUMBER"
 fi
