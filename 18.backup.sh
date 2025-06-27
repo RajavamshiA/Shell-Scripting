@@ -59,7 +59,7 @@ then
     else
         echo -e "$R Error::$N Failed to create ZIP file"  
         exit 1
-    fi       
+    fi           
 else
     echo "No files are found older than $DAYS"
 fi
