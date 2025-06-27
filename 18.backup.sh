@@ -61,5 +61,5 @@ then
         exit 1
     fi           
 else
-    echo "No files are found older than $DAYS"
+    echo "No files are found older than $DAYS"      
 fi
